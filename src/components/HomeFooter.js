@@ -1,20 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
-import {createGlobalStyle} from 'styled-components'
 
-const GlobalStyle = createGlobalStyle`
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-`
 
-export default function App(){
+export default function Footer(){
   return(
     <>
-    <GlobalStyle />
-    <h1>HOMEFOOTER.js</h1>
     </>
   )
 }

@@ -1,4 +1,8 @@
 import React from 'react'
+import HomeHeader from "./components/HomeHeader.js"
+import HomeMain from "./components/HomeMain"
+import HomeFooter from "./components/HomeFooter.js"
+
 import styled from 'styled-components'
 import {createGlobalStyle} from 'styled-components'
 
@@ -14,7 +18,9 @@ export default function App(){
   return(
     <>
     <GlobalStyle />
-    <h1>APP.js</h1>
+    <HomeHeader />
+    <HomeMain />
+    <HomeFooter/>
     </>
   )
 }
