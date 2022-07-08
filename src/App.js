@@ -1,10 +1,11 @@
 import React from 'react'
+
 import HomeHeader from "./components/HomeHeader.js"
 import HomeMain from "./components/HomeMain"
 import HomeFooter from "./components/HomeFooter.js"
 
 import styled from 'styled-components'
-import {createGlobalStyle} from 'styled-components'
+import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
 *{
@@ -14,13 +15,13 @@ const GlobalStyle = createGlobalStyle`
 }
 `
 
-export default function App(){
-  return(
+export default function App() {
+  return (
     <>
-    <GlobalStyle />
-    <HomeHeader />
-    <HomeMain />
-    <HomeFooter/>
+      <GlobalStyle />
+      <HomeHeader />
+      <HomeMain />
+      <HomeFooter />
     </>
   )
 }

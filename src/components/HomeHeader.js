@@ -1,4 +1,5 @@
 import React from 'react'
+
 import styled from 'styled-components'
 
 const MainDiv = styled.div`
@@ -63,6 +64,7 @@ color: #CDCDCE;
 export default function Header() {
   return (
     <MainDiv>
+
       <TitleDiv>
         <H1>L</H1>
       </TitleDiv>
@@ -74,6 +76,7 @@ export default function Header() {
           <Li>CONTACT</Li>
         </Ul>
       </Info>
+
     </MainDiv>
   )
 }

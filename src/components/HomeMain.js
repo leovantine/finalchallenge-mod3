@@ -1,14 +1,13 @@
 import React from 'react'
+
 import styled from 'styled-components'
 
 const MainDiv = styled.div`
 width: 100%;
-height: 60vh;
+height: 57vh;
 background-color: #1B1D22;
-/* border: solid red; */
 `
 const TitlesDiv = styled.div`
-/* border: solid green; */
 width: 100%;
 height: 60vh;
 padding: 15vh;
@@ -19,7 +18,6 @@ const TitleDiv = styled.div`
 display: flex;
 justify-content: center;
 align-items: center;
-/* border: solid yellow; */
 `
 const H2 = styled.h2`
 font-family: 'Excon', sans-serif;
@@ -34,7 +32,6 @@ border: solid 4px #D91140;
 margin-left: 2vw;
 `
 const MainTitleDiv = styled.div`
-/* border: solid purple; */
 display: flex;
 justify-content: center;
 `
@@ -45,7 +42,6 @@ letter-spacing: 3px;
 color: #CCCCCD;
 `
 const ThirdTitleDiv = styled.div`
-/* border: solid orange; */
 display: flex;
 justify-content: flex-end;
 width: 67vw;
@@ -57,7 +53,6 @@ letter-spacing: 3px;
 color: #D91140;
 `
 const FourthTitleDiv = styled.div`
-/* border: solid pink; */
 display: flex;
 justify-content: flex-end;
 width: 67vw;
@@ -68,7 +63,6 @@ font-size: 1.6rem;
 letter-spacing: 3px;
 color: #D91140;
 `
-
 
 export default function Main() {
   return (
@@ -94,6 +88,7 @@ export default function Main() {
         </FourthTitleDiv>
 
       </TitlesDiv>
+
     </MainDiv>
   )
 }

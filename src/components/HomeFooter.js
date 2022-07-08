@@ -1,4 +1,5 @@
 import React from 'react'
+
 import github from "../images/github.png"
 import instagram from "../images/instagram.png"
 import facebook from "../images/facebook.png"
@@ -6,15 +7,13 @@ import facebook from "../images/facebook.png"
 import styled from 'styled-components'
 
 const MainDiv = styled.div`
-border: solid green;
 width: 100%;
-height: 27vh;
+height: 30vh;
 background-color: #1B1D22;
 `
 const IconsDiv = styled.div`
-border: solid orange;
 width: 5%;
-height: 26vh;
+height: 28vh;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -31,71 +30,45 @@ margin: 2vh;
 }
 `
 const InfoFooterDiv = styled.div`
-border: solid purple;
 width: 100%;
-height: 10vh;
+height: 29vh;
 display: flex;
 `
 const NameDiv = styled.div`
-border: solid yellow;
-width: 80%;
+width: 18%;
+height: 5vh;
+position: relative;
+top: 23vh;
+left: 72.5vw;
 display: flex;
-justify-content: flex-end;
+justify-content: center;
 align-items: center;
 `
 const P = styled.p`
 font-family: 'Ranade', sans-serif;
-font-size: 1rem;
+font-size: 0.8rem;
 font-weight: 600;
 color: #CDCDCE;
 `
-const LogoDiv = styled.div`
-border: solid pink;
-width: 7%;
-display: flex;
-justify-content: center;
-align-items: center;
-`
-const H3 = styled.h3`
-display: flex;
-justify-content: center;
-font-family: 'Rosaline', cursive;
-font-size: 3.5rem;
-color: #CDCDCE;
-border: solid #D91140;
-border-radius: 50px;
-width: 6vw;
-height: 12vh;
-&:hover{
-  cursor: pointer;
-  filter: blur(0.8px);
-  transform: rotateZ(360deg);
-  transition: all 1s;
-}
-`
 
-
-export default function Footer(){
-  return(
+export default function Footer() {
+  return (
     <MainDiv>
 
       <InfoFooterDiv>
 
-      <IconsDiv>
-      <a href="https://github.com/leovantine" target="_blank"><Img src={github} alt="Github icon"></Img></a>
-      <a href="https://www.instagram.com/_leovantine/" target="_blank"><Img src={instagram} alt="Instagram icon"></Img></a>
-      <a href="https://www.facebook.com/leovantine" target="_blank"><Img src={facebook} alt="Facebook icon"></Img></a>
-      </IconsDiv>
+        <IconsDiv>
+          <a href="https://github.com/leovantine" target="_blank"><Img src={github} alt="Github icon"></Img></a>
+          <a href="https://www.instagram.com/_leovantine/" target="_blank"><Img src={instagram} alt="Instagram icon"></Img></a>
+          <a href="https://www.facebook.com/leovantine" target="_blank"><Img src={facebook} alt="Facebook icon"></Img></a>
+        </IconsDiv>
 
-      <NameDiv>
-        <P>LEONARDO VANTINE</P>
+        <NameDiv>
+          <P>Developed by Leonardo Vantine</P>
         </NameDiv>
 
-        <LogoDiv>
-        <H3>L</H3>
-      </LogoDiv>
-
       </InfoFooterDiv>
+
     </MainDiv>
   )
 }
