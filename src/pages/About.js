@@ -1,7 +1,6 @@
 import React from 'react'
 
 import img1 from "../images/img1.jpg"
-import img2 from "../images/img2.jpg"
 
 import styled from 'styled-components'
 
@@ -32,12 +31,12 @@ width: 90%;
 }
 `
 
-export default function About(){
-    return(
+export default function About() {
+    return (
         <MainDiv>
             <FirstDivImg>
                 <BorderDiv>
-                <ImgOne src={img1} alt="Leonardo Vantine"></ImgOne>
+                    <ImgOne src={img1} alt="Leonardo Vantine"></ImgOne>
                 </BorderDiv>
             </FirstDivImg>
         </MainDiv>
