@@ -76,6 +76,9 @@ export default function Header() {
       </TitleDiv>
       <Info>
         <Ul>
+          <Linking to="/">
+            <Li>HOME</Li>
+          </Linking>
           <Linking to="about">
             <Li>ABOUT</Li></Linking>
           <Linking to="projects">

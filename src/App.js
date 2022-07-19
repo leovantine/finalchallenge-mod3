@@ -1,5 +1,7 @@
 import React from 'react'
 
+import HomeHeader from "./components/HomeHeader.js"
+
 import Route from "./components/Routes.js"
 
 import {BrowserRouter as Router
@@ -18,6 +20,7 @@ export default function App() {
   return (
     <Router>
       <GlobalStyle />
+      <HomeHeader />
       <Route />
     </Router>
   )
