@@ -1,5 +1,9 @@
 import React from 'react'
 
+import {
+  BrowserRouter as Router, Route, Routes, Link
+} from "react-router-dom"
+
 import styled from 'styled-components'
 
 const MainDiv = styled.div`
@@ -48,6 +52,9 @@ width: 100%;
 height: 14vh;
 list-style: none;
 `
+const Linking = styled(Link)`
+text-decoration: none;
+`
 const Li = styled.li`
 font-family: 'Ranade', sans-serif;
 font-size: 1rem;
@@ -64,19 +71,19 @@ color: #CDCDCE;
 export default function Header() {
   return (
     <MainDiv>
-
       <TitleDiv>
         <H1>L</H1>
       </TitleDiv>
-
       <Info>
         <Ul>
-          <Li>ABOUT</Li>
-          <Li>PROJECTS</Li>
-          <Li>CONTACT</Li>
+          <Linking to="about">
+            <Li>ABOUT</Li></Linking>
+          <Linking to="projects">
+            <Li>PROJECTS</Li></Linking>
+          <Linking to="contact">
+            <Li>CONTACT</Li></Linking>
         </Ul>
       </Info>
-
     </MainDiv>
   )
 }
