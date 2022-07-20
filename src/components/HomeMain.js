@@ -28,7 +28,7 @@ color: #5D5E62;
 const LineDiv = styled.div`
 width: 46%;
 height: 0.1vh;
-border: solid 4px #D91140;
+border: solid 4px #0263F5;
 margin-left: 2vw;
 `
 const MainTitleDiv = styled.div`
@@ -50,7 +50,7 @@ const ThirdTitle = styled.h2`
 font-family: 'Excon', sans-serif;
 font-size: 1.8rem;
 letter-spacing: 3px;
-color: #D91140;
+color: #0263F5;
 `
 const FourthTitleDiv = styled.div`
 display: flex;
@@ -61,7 +61,7 @@ const FourthTitle = styled.h2`
 font-family: 'Excon', sans-serif;
 font-size: 1.6rem;
 letter-spacing: 3px;
-color: #D91140;
+color: #0263F5;
 `
 
 export default function Main() {

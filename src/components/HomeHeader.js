@@ -24,7 +24,7 @@ const H1 = styled.h1`
 font-family: 'Rosaline', cursive;
 font-size: 3.5rem;
 color: #CDCDCE;
-border: solid #D91140;
+border: solid #0263F5;
 border-radius: 50px;
 width: 6vw;
 height: 12vh;

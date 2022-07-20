@@ -29,7 +29,7 @@ align-items: center;
 const NdBackgroundDiv = styled.div`
 width: 15vw;
 height: 60vh;
-background-color: #D91140;
+background-color: #0263F5;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -64,7 +64,7 @@ const Button = styled.button`
 width: 10vw;
 height: 6vh;
 font-family: 'Ranade', sans-serif;
-background-color: #D91140;
+background-color: #0263F5;
 color: #EEF3FA;
 &:hover{
     cursor: pointer;
