@@ -14,7 +14,17 @@ const GlobalStyle = createGlobalStyle`
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}` 
+}
+::-webkit-scrollbar{
+  width:6px;
+}
+::-webkit-scrollbar-track{
+  background: #1B1D22;
+}
+::-webkit-scrollbar-thumb{
+  width:2px;
+  background: #CCCCCD;
+}`
 
 export default function App() {
   return (

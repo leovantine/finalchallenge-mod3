@@ -76,7 +76,7 @@ border-radius: 5px;
 width: 12vw;
 height: 42vh;
 position: relative;
-right: 10vw;
+right: 7vw;
 `
 const NdImg = styled.img`
 width: 100%;
