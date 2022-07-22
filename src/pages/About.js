@@ -76,7 +76,7 @@ border-radius: 5px;
 width: 12vw;
 height: 42vh;
 position: relative;
-right: 7vw;
+left: 2vw;
 `
 const NdImg = styled.img`
 width: 100%;
@@ -99,12 +99,12 @@ export default function About() {
                 <Img src={img2} alt="Leonardo Vantine"></Img>
             </BorderImgDiv>
             <P>Meu nome é Leonardo Vantine e tenho 17 anos de idade. Atualmente moro em Santana do Deserto, Minas Gerais. Morei em Três Rios, Rio de Janeiro até os meus 13 anos de idade. Sempre fui muito determinado e disposto a mudanças e novidades. No ano de 2019 me mudei para Minas Gerais em busca de oportunidades de vida para meu crescimento pessoal e profissional. Me tornei jovem líder da Onda Solidária e resultou em muitas oportunidades.</P>
-            <TranslateP>TRADUZIR PARA INGLÊS</TranslateP>
+            {/* <TranslateP>TRADUZIR PARA INGLÊS</TranslateP> */}
             </FirstInfo>
             <Hr></Hr>
             <NdInfo>
                 <P>Sempre gostei de tecnologia e sentia que algum dia iria atuar em alguma área TI, mas não tinha noção do quão grande é esse mundo. Atráves da Onda Solidária conheci o Vai na Web, logo quando se abriu as inscrições para o curso de Desenvolvedor Front-end. Resolvi me inscrever e fui percebendo com o tempo que é algo que realmente quero me aperfeiçoar cada vez mais e crescer profissionalmente.</P>
-                <NdTranslateP>TRADUZIR PARA INGLÊS</NdTranslateP>
+                {/* <NdTranslateP>TRADUZIR PARA INGLÊS</NdTranslateP> */}
                 <NdBorderImgDiv>
                     <NdImg src={img1} alt="Leonardo Vantine"></NdImg>
                 </NdBorderImgDiv>
