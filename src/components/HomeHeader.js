@@ -7,18 +7,29 @@ import {
 import styled from 'styled-components'
 
 const MainDiv = styled.div`
+/* border: solid red; */
 width: 100%;
 height: 13vh;
 background-color: #1B1D22;
 display: flex;
+
+@media (max-width: 768px) {
+  width: 100%;
+}
 `
 const TitleDiv = styled.div`
+/* border: solid yellow; */
 display: flex;
 justify-content: center;
 align-items: center;
-width: 10%;
+width: 15vw;
 height: 15vh;
 margin-left: 5vw;
+
+@media (max-width: 768px) {
+  width: 13vw;
+  height: 12vh;
+}
 `
 const H1 = styled.h1`
 font-family: 'Rosaline', cursive;
@@ -38,11 +49,28 @@ align-items: center;
   transform: rotateZ(360deg);
   transition: all 1s;
 }
+
+@media (max-width: 768px) {
+  font-size: 3rem;
+  width: 17vw;
+  &:hover{
+    cursor: pointer;
+    filter: blur(0.8px);
+    transform: rotateZ(360deg);
+    transition: all 1s;
+  }
+}
 `
 const Info = styled.div`
 width: 50%;
 height: 14vh;
 margin-left: 35vw;
+
+@media (max-width: 768px) {
+  height: 12vh;
+  width: 80vw;
+  margin: auto;
+}
 `
 const Ul = styled.ul`
 display: flex; 
@@ -51,6 +79,13 @@ align-items: center;
 width: 100%;
 height: 14vh;
 list-style: none;
+
+@media (max-width: 768px) {
+  height: 11vh;
+  width: 80vw;
+  display: flex;
+  justify-content: space-evenly;
+}
 `
 const Linking = styled(Link)`
 text-decoration: none;
@@ -64,6 +99,10 @@ color: #CDCDCE;
   transform:scale(1.1);
   font-weight: 700;
   filter: blur(0.5px);
+}
+
+@media (max-width: 768px) {
+  font-size: 0.8rem;
 }
 
 /* font-family: 'Excon', sans-serif; */
