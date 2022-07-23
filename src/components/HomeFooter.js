@@ -10,14 +10,28 @@ const MainDiv = styled.div`
 width: 100%;
 height: 30vh;
 background-color: #1B1D22;
+
+@media (max-width: 768px) {
+  border: solid red; 
+  width: 100%;
+  height: 31vh;
+}
 `
 const IconsDiv = styled.div`
-width: 5%;
+width: 5vw;
 height: 28vh;
 display: flex;
 flex-direction: column;
 align-items: center;
 margin-left: 4vw;
+
+@media (max-width: 768px) {
+  border: solid pink;
+  width: 12vw; 
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+}
 `
 const Img = styled.img`
 display: flex;
@@ -27,6 +41,11 @@ margin: 2vh;
   cursor: pointer;
   transform:scale(1.1);
   filter: blur(0.5px);
+}
+
+@media (max-width: 768px) {
+  border: solid ; 
+  width: 60%;
 }
 `
 const InfoFooterDiv = styled.div`
@@ -43,12 +62,28 @@ left: 72.5vw;
 display: flex;
 justify-content: center;
 align-items: center;
+
+@media (max-width: 768px) {
+  display: none;
+}
 `
 const P = styled.p`
 font-family: 'Ranade', sans-serif;
 font-size: 0.8rem;
 font-weight: 600;
 color: #CDCDCE;
+
+@media (max-width: 768px) {
+  display: none;
+}
+`
+const PMobile = styled.p`
+display: none;
+
+@media (max-width: 768px) {
+  display: flex;
+  color: red;
+}
 `
 
 export default function Footer() {
@@ -65,6 +100,7 @@ export default function Footer() {
 
         <NameDiv>
           <P>Developed by Leonardo Vantine</P>
+          <PMobile>Developed by Leonardo Vantine</PMobile>
         </NameDiv>
 
       </InfoFooterDiv>
