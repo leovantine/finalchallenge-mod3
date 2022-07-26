@@ -5,13 +5,13 @@ import styled from 'styled-components'
 const Container = styled.div`
 border: solid red;
 width: 100%;
-height: 20vh;
+height: 87vh;
 `
 
 export default function App(){
     return(
         <Container>
-            <h1>HEY</h1>
+            <h1>hello</h1>
         </Container>
     )
 }

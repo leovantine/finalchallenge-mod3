@@ -7,7 +7,7 @@ width: 100%;
 height: 57vh;
 background-color: #1B1D22;
 
-@media (max-width: 768px) {
+@media (max-width: 150vw) {
   /* border: solid red; */
 }
 `
@@ -18,7 +18,7 @@ padding: 15vh;
 display: flex;
 flex-direction: column;
 
-@media (max-width: 768px) {
+@media (max-width: 150vw) {
   /* border: solid yellow; */
   height: 56vh;
 }
@@ -28,7 +28,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 
-@media (max-width: 768px) {
+@media (max-width: 150vw) {
   /* border: solid pink; */
 
 }
@@ -47,7 +47,7 @@ height: 0.1vh;
 border: solid 4px #0263F5;
 margin-left: 2vw;
 
-@media (max-width: 768px) {
+@media (max-width: 150vw) {
   width: 45vw; 
 }
 `
@@ -55,7 +55,7 @@ const MainTitleDiv = styled.div`
 display: flex;
 justify-content: center;
 
-@media (max-width: 768px) {
+@media (max-width: 150vw) {
 }
 `
 const H1 = styled.h1`
@@ -64,7 +64,7 @@ font-size: 3.6rem;
 letter-spacing: 3px;
 color: #CCCCCD;
 
-@media (max-width: 768px) {
+@media (max-width: 150vw) {
   /* border: solid green;  */
   font-size: 1.7rem;
   width: 70vw;
@@ -76,7 +76,7 @@ display: flex;
 justify-content: flex-end;
 width: 67vw;
 
-@media (max-width: 768px) {
+@media (max-width: 150vw) {
   /* border: solid grey;  */
   width: 66.5vw;
 }
@@ -87,7 +87,7 @@ font-size: 1.8rem;
 letter-spacing: 3px;
 color: #0263F5;
 
-@media (max-width: 768px) {
+@media (max-width: 150vw) {
   font-size: 2rem;
 }
 `
@@ -96,7 +96,7 @@ display: flex;
 justify-content: flex-end;
 width: 67vw;
 
-@media (max-width: 768px) {
+@media (max-width: 150vw) {
   /* border: solid purple;  */
   width: 66.5vw;
 }
@@ -107,7 +107,7 @@ font-size: 1.6rem;
 letter-spacing: 3px;
 color: #0263F5;
 
-@media (max-width: 768px) {
+@media (max-width: 150vw) {
   font-size: 1.8rem;
 }
 `
