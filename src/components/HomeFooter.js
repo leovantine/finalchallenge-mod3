@@ -11,7 +11,7 @@ width: 100%;
 height: 30vh;
 background-color: #1B1D22;
 
-@media (max-width: 150vw) {
+@media (max-width: 768px) {
   /* border: solid red;  */
   width: 100%;
   height: 31vh;
@@ -25,7 +25,7 @@ flex-direction: column;
 align-items: center;
 margin-left: 4vw;
 
-@media (max-width: 150vw) {
+@media (max-width: 768px) {
   /* border: solid pink; */
   width: 100vw; 
   height: 30vh;
@@ -47,7 +47,7 @@ margin: 2vh;
   filter: blur(0.5px);
 }
 
-@media (max-width: 150vw) {
+@media (max-width: 768px) {
   width: 35%;
 }
 `
@@ -66,7 +66,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 
-@media (max-width: 150vw) {
+@media (max-width: 768px) {
   display: none;
 }
 `
@@ -76,14 +76,14 @@ font-size: 0.8rem;
 font-weight: 600;
 color: #CDCDCE;
 
-@media (max-width: 150vw) {
+@media (max-width: 768px) {
   display: none;
 }
 `
 const PMobile = styled.p`
 display: none;
 
-@media (max-width: 150vw) {
+@media (max-width: 768px) {
   display: flex;
   color: red;
 }

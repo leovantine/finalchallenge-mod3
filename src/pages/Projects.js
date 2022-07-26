@@ -1,10 +1,6 @@
 import React from 'react'
 import Card from "../components/Card.js"
 
-import {
-    BrowserRouter as Router, Route, Routes, Link
-  } from "react-router-dom"
-
 import styled from 'styled-components'
 
 const Container = styled.div`
@@ -33,9 +29,6 @@ width: 12vw;
 display: flex;
 justify-content: center;
 align-items: center;
-`
-const Linking = styled(Link)`
-text-decoration: none;
 `
 const A = styled.a`
 text-decoration: none;
@@ -122,15 +115,6 @@ export default function Projects() {
                 </TitleDiv>
                 <PDiv>
                 <A href="https://github.com/leovantine/recipes_desafio" target="_blank"><P>CHECK HERE</P></A>
-                </PDiv>
-            </Card>
-
-            <Card>
-                <TitleDiv>
-                    <H2>ODS</H2>
-                </TitleDiv>
-                <PDiv>
-                <Linking to="ods"><P>CHECK HERE</P></Linking>
                 </PDiv>
             </Card>
         </Container>
